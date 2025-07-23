@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"DemoPlayerFSM",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DemoPlayerFSM",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/demo/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

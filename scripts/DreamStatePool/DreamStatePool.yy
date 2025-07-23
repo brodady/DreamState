@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"DreamStatePool",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DreamStatePool",
+  "parent":{
+    "name":"(system)",
+    "path":"folders/DREAMSTATE/(system).yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

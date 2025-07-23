@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"DeepCopy",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DeepCopy",
+  "parent":{
+    "name":"KeeVeeGames",
+    "path":"folders/DREAMSTATE/(system)/KeeVeeGames.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
