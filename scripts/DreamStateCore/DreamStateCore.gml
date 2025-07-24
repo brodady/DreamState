@@ -126,11 +126,20 @@ function DreamStateDefinition(_config = {}) constructor
         // --- Final setup ---
         if (DREAMSTATE_STRICT_MODE) {
             if (!_instance.is_state_defined(_initial_state_id)) {
-                var _err = "Attempted to create FSM with an initial "
-                         + $"state '{string(_initial_state_id)}' "
-                         + "that has not been defined.";
-                __DreamState_Error(_err);
-                return undefined;
+				try {
+					var _state_str = variable_struct_exists(nameLookup, string(_initial_state_id));
+	                var _err = "Attempted to create FSM with an initial "
+	                         + $"state '{_state_str}' "
+	                         + "that has not been defined.";
+	                __DreamState_Error(_err);
+	                return undefined;
+				} catch(ex) {
+					var _err = "Attempted to create FSM with an initial "
+	                         + $"state {_initial_state_id}"
+	                         + "that has not been defined.\n"
+							 + " (Define names with nameLookup on your definition struct to not see numbers)";
+	                __DreamState_Error(_err);
+				}
             }
         }
 

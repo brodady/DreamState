@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"DreamStateUnitTests",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DreamStateUnitTests",
+  "parent":{
+    "name":"(system)",
+    "path":"folders/DREAMSTATE/(system).yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
