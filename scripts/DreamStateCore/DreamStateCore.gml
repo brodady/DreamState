@@ -1,6 +1,6 @@
 // DreamState Hierarchical State Machine Library
 // By: Mr. Giff
-// ver: 0.4.3 (Fixed internal timer bug)
+// ver: 0.4.4 (Updated Error reporting)
 // lic: MIT
 
 // ======================================================================
